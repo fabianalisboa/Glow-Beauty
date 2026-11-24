@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+dist/
+dist-ssr/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Vite
+.vite/
+
+# TypeScript
+*.tsbuildinfo
+.vercel
+
+# Cache local da Supabase CLI (dados do projeto ligado)
+supabase/.temp/
+
+# banco deste projeto para o sb.js (arquivo local)
+.supabase-project.json
